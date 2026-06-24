@@ -75,11 +75,7 @@
 
 ****Verify:**** Add a todo item, run `docker compose down`, then `docker compose up` Again, your item should still be there.
 
-##### Step 3. Add the frontend as a service
-
-- Add the React dev server as a service.
-- Set up live code syncing so that changes to source files are reflected in the running containers without a full rebuild.
-
+ 
 ****Verify:**** Run `docker compose up --watch`, edit a file in `client/src/`, and confirm the change appears in the browser automatically.
 
 ##### Step 4. Route frontend and backend through a single port
